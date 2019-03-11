@@ -4,6 +4,21 @@
 
 ### :trident:Fastjson简介 ###
 
-Fastjson 是一个 Java 库，可以将 Java 对象转换为 JSON 格式，当然它也可以将 JSON 字符串转换为 Java 对象。
+>Fastjson是阿里巴巴的开源JSON解析库, 是一个 Java 库，可以将 Java 对象转换为 JSON 格式，当然它也可以将 JSON 字符串转换为 Java 对象。Fastjson 可以操作任何 Java 对象，即使是一些预先存在的没有源码的对象。
 
-Fastjson 可以操作任何 Java 对象，即使是一些预先存在的没有源码的对象。
+### :trident:Fastjson优点 ###
+
+ * 速度快 ： fastjson相对其他JSON库的特点是快，从2011年fastjson发布1.1.x版本之后，其性能从未被其他Java实现的JSON库超越。
+ 
+ * 使用广泛 : fastjson在阿里巴巴大规模使用，在数万台服务器上部署，fastjson在业界被广泛接受。在2012年被开源中国评选为最受欢迎的国产开源软件之一。
+ 
+ * 测试完备 : fastjson有非常多的testcase，在1.2.11版本中，testcase超过3321个。每次发布都会进行回归测试，保证质量稳定。
+ 
+ * 使用简单 : fastjson的API十分简洁。
+ 
+```java
+String text = JSON.toJSONString(obj); //序列化
+VO vo = JSON.parseObject("{...}", VO.class); //反序列化
+```
+
+ * 功能完备 : 支持泛型，支持流处理超大文本，支持枚举，支持序列化和反序列化扩展
