@@ -22,3 +22,11 @@ VO vo = JSON.parseObject("{...}", VO.class); //反序列化
 ```
 
  * 功能完备 : 支持泛型，支持流处理超大文本，支持枚举，支持序列化和反序列化扩展
+
+### :trident:Fastjson下载与安装 ###
+
+**eclipse JavaEE平台下载及使用：**
+
+   最新安装下载地址[点击下载](https://repo1.maven.org/maven2/com/alibaba/fastjson/1.2.53/fastjson-1.2.53.jar)
+   
+   下载完毕后，记住下载位置，IDEA导入jar包： [点击跳转]
