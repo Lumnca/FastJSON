@@ -29,4 +29,4 @@ VO vo = JSON.parseObject("{...}", VO.class); //反序列化
 
    最新安装下载地址[点击下载](https://repo1.maven.org/maven2/com/alibaba/fastjson/1.2.53/fastjson-1.2.53.jar)
    
-   下载完毕后，记住下载位置，IDEA导入jar包： [点击跳转]
+   下载完毕后，记住下载位置，IDEA导入jar包： [引入包流程](https://github.com/Lumnca/FastJSON/blob/master/%E5%AE%89%E8%A3%85%E4%B8%8E%E5%BC%95%E5%85%A5.md)
