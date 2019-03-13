@@ -33,3 +33,4 @@ VO vo = JSON.parseObject("{...}", VO.class); //反序列化
 
 ### :trident:Fastjson基本语法 ###
 
+[基础快速语法](https://github.com/Lumnca/FastJSON/blob/master/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
